@@ -1,12 +1,10 @@
-:root {
-	--primary-color: #e3ccf2;
-	--secondary-color: #9a48cf;
-	--standout-color: #602486;
-	--button-hover-color: #cf649a;
-}
+$primary-color: #e3ccf2;
+$secondary-color: #9a48cf;
+$standout-color: #602486;
+$button-hover-color: #cf649a;
 
 .main {
-	background: var(--primary-color);
+	background: $primary-color;
 	font-family: 'Kumbh Sans', sans-serif;
 }
 
@@ -20,7 +18,7 @@
 	position: relative;
 
 	&__logo {
-		color: var(--secondary-color);
+		color: $secondary-color;
 		cursor: pointer;
 		text-decoration: none;
 		font-size: 2rem;
@@ -32,7 +30,7 @@
 	&__bars {
 		opacity: 0;
 		@media (max-width: 768px) {
-			color: var(--secondary-color);
+			color: $secondary-color;
 			opacity: 1;
 			position: absolute;
 			top: 22px;
@@ -52,7 +50,7 @@
 		}
 
 		&--link {
-			color: var(--secondary-color);
+			color: $secondary-color;
 			justify-content: center;
 			text-decoration: none;
 			padding: 0 1rem;
@@ -60,7 +58,7 @@
 			align-items: center;
 
 			&:hover {
-				color: var(--standout-color);
+				color: $standout-color;
 				transition: all 0.3s ease;
 			}
 		}
@@ -70,12 +68,12 @@
 			border: none;
 			outline: none;
 			border-radius: 4px;
-			background: var(--standout-color);
+			background: $standout-color;
 			margin-left: 16px;
-			color: var(--primary-color);
+			color: $primary-color;
 
 			&:hover {
-				background: var(--button-hover-color);
+				background: $button-hover-color;
 				transition: all 0.3s ease;
 			}
 
@@ -86,7 +84,7 @@
 /* hero */
 
 .hero {
-	background-color: var(--primary-color);
+	background-color: $primary-color;
 
 	&__container {
 		display: grid;
@@ -117,7 +115,7 @@
 
 			h1 {
 				font-size: 4rem;
-				color: var(--standout-color);
+				color: $standout-color;
 				margin: 0;
 				@media (max-width: 280px) {
 					font-size: 1.5rem;
@@ -126,7 +124,7 @@
 
 			h2 {
 				font-size: 3rem;
-				color: var(--secondary-color);
+				color: $secondary-color;
 				margin: 0;
 				@media (max-width: 280px) {
 					font-size: 2rem;
@@ -135,7 +133,7 @@
 
 			p {
 				font-size: 1.5rem;
-				color: var(--secondary-color);
+				color: $secondary-color;
 				margin-top: 2rem;
 				font-weight: 700;
 				@media (max-width: 280px) {
@@ -156,11 +154,11 @@
 
 .hero--button {
 	font-size: 1rem;
-	background-color: var(--standout-color);
+	background-color: $standout-color;
 	padding: 14px 32px;
 	border: none;
 	border-radius: 4px;
-	color: var(--primary-color);
+	color: $primary-color;
 	margin-top: 2rem;
 	cursor: pointer;
 	position: relative;
@@ -170,7 +168,7 @@
 	a {
 		position: relative;
 		z-index: 2;
-		color: var(--primary-color);
+		color: $primary-color;
 		text-decoration: none;
 	}
 
@@ -181,11 +179,11 @@
 		left: 0;
 		width: 0;
 		height: 100%;
-		background: var(--button-hover-color);
+		background: $button-hover-color;
 		transition: all 0.3s;
 		border-radius: 4px;
 	}
-	
+
 	&:hover:after {
 		width: 100%;
 	}

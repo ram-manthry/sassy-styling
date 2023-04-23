@@ -1,12 +1,5 @@
-:root {
-  --primary-color: #e3ccf2;
-  --secondary-color: #9a48cf;
-  --standout-color: #602486;
-  --button-hover-color: #cf649a;
-}
-
 .main {
-  background: var(--primary-color);
+  background: #e3ccf2;
   font-family: "Kumbh Sans", sans-serif;
 }
 
@@ -20,7 +13,7 @@
   position: relative;
 }
 .navbar__logo {
-  color: var(--secondary-color);
+  color: #9a48cf;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -33,7 +26,7 @@
 }
 @media (max-width: 768px) {
   .navbar__bars {
-    color: var(--secondary-color);
+    color: #9a48cf;
     opacity: 1;
     position: absolute;
     top: 22px;
@@ -54,7 +47,7 @@
   }
 }
 .navbar__menu--link {
-  color: var(--secondary-color);
+  color: #9a48cf;
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
@@ -62,7 +55,7 @@
   align-items: center;
 }
 .navbar__menu--link:hover {
-  color: var(--standout-color);
+  color: #602486;
   transition: all 0.3s ease;
 }
 .navbar__menu--button {
@@ -70,18 +63,18 @@
   border: none;
   outline: none;
   border-radius: 4px;
-  background: var(--standout-color);
+  background: #602486;
   margin-left: 16px;
-  color: var(--primary-color);
+  color: #e3ccf2;
 }
 .navbar__menu--button:hover {
-  background: var(--button-hover-color);
+  background: #cf649a;
   transition: all 0.3s ease;
 }
 
 /* hero */
 .hero {
-  background-color: var(--primary-color);
+  background-color: #e3ccf2;
 }
 .hero__container {
   display: grid;
@@ -118,7 +111,7 @@
 }
 .hero__container--left h1 {
   font-size: 4rem;
-  color: var(--standout-color);
+  color: #602486;
   margin: 0;
 }
 @media (max-width: 280px) {
@@ -128,7 +121,7 @@
 }
 .hero__container--left h2 {
   font-size: 3rem;
-  color: var(--secondary-color);
+  color: #9a48cf;
   margin: 0;
 }
 @media (max-width: 280px) {
@@ -138,7 +131,7 @@
 }
 .hero__container--left p {
   font-size: 1.5rem;
-  color: var(--secondary-color);
+  color: #9a48cf;
   margin-top: 2rem;
   font-weight: 700;
 }
@@ -157,11 +150,11 @@
 
 .hero--button {
   font-size: 1rem;
-  background-color: var(--standout-color);
+  background-color: #602486;
   padding: 14px 32px;
   border: none;
   border-radius: 4px;
-  color: var(--primary-color);
+  color: #e3ccf2;
   margin-top: 2rem;
   cursor: pointer;
   position: relative;
@@ -171,7 +164,7 @@
 .hero--button a {
   position: relative;
   z-index: 2;
-  color: var(--primary-color);
+  color: #e3ccf2;
   text-decoration: none;
 }
 .hero--button:after {
@@ -181,7 +174,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: var(--button-hover-color);
+  background: #cf649a;
   transition: all 0.3s;
   border-radius: 4px;
 }
