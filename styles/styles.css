@@ -1,3 +1,8 @@
+.navbar__menu--link, .navbar__menu, .navbar__logo {
+  display: flex;
+  align-items: center;
+}
+
 .navbar {
   height: 80px;
   display: flex;
@@ -12,8 +17,6 @@
   text-decoration: none;
   font-size: 2rem;
   margin-left: 24px;
-  display: flex;
-  align-items: center;
 }
 .navbar__bars {
   opacity: 0;
@@ -32,8 +35,6 @@
   list-style: none;
   text-align: center;
   margin-right: 24px;
-  display: flex;
-  align-items: center;
 }
 @media (max-width: 768px) {
   .navbar__menu {
@@ -45,8 +46,6 @@
   justify-content: center;
   text-decoration: none;
   padding: 0 1rem;
-  display: flex;
-  align-items: center;
 }
 .navbar__menu--link:hover {
   color: #602486;

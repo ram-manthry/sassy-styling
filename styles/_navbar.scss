@@ -1,7 +1,12 @@
 @use 'colors' as c;
 
+%flex-center {
+  display: flex;
+  align-items: center;
+} 
+
 .navbar {
-	height: 80px;
+	height: 80px; 
 	display: flex;
 	justify-content: space-between;
 	padding: 0.5rem calc((100vw - 1200px) / 2);
@@ -14,8 +19,7 @@
 		text-decoration: none;
 		font-size: 2rem;
 		margin-left: 24px;
-		display: flex;
-		align-items: center;
+		@extend %flex-center;
 	}
 
 	&__bars {
@@ -34,8 +38,7 @@
 		list-style: none;
 		text-align: center;
 		margin-right: 24px;
-		display: flex;
-		align-items: center;
+		@extend %flex-center;
 		@media (max-width: 768px) {
 			display: none;
 		}
@@ -45,8 +48,7 @@
 			justify-content: center;
 			text-decoration: none;
 			padding: 0 1rem;
-			display: flex;
-			align-items: center;
+			@extend %flex-center;
 
 			&:hover {
 				color: c.$standout-color;
