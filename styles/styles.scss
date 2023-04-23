@@ -3,7 +3,7 @@
 @use 'hero'; 
 
 .main {
-	background: c.$primary-color;
+	@include c.theme-colors($light-theme: false);
 	font-family: 'Kumbh Sans', sans-serif;
 }
  
