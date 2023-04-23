@@ -11,7 +11,7 @@ To run it on browser use [live-server](https://marketplace.visualstudio.com/item
 - **Problem 4**: Difficult to read
 - **Problem 5**: Difficult to maintain or collaborate
 - **Problem 6**: Code duplication
-- **Problem 7**: Unnecessary repetion of media queries
+- **Problem 7**: Unnecessary repetition of media queries
 - **Problem 8**: Soo used to thinking in px, need a rem convertor
 - **Problem 9**: Unable to switch theme
 
