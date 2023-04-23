@@ -21,7 +21,7 @@
 .navbar__bars {
   opacity: 0;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .navbar__bars {
     color: #9a48cf;
     opacity: 1;
@@ -36,7 +36,7 @@
   text-align: center;
   margin-right: 24px;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .navbar__menu {
     display: none;
   }
@@ -81,7 +81,7 @@
   padding-right: 24px;
   padding-left: 24px;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero__container {
     grid-template-columns: 1fr;
     height: 100%;
@@ -91,12 +91,12 @@
   width: 100%;
   line-height: 1.2;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .hero__container--left {
     padding: 5rem 0;
   }
 }
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
   .hero__container--left {
     line-height: 1.5;
   }
@@ -106,7 +106,7 @@
   color: #602486;
   margin: 0;
 }
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
   .hero__container--left h1 {
     font-size: 1.5rem;
   }
@@ -116,7 +116,7 @@
   color: #9a48cf;
   margin: 0;
 }
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
   .hero__container--left h2 {
     font-size: 2rem;
   }
@@ -127,7 +127,7 @@
   margin-top: 2rem;
   font-weight: 700;
 }
-@media (max-width: 280px) {
+@media screen and (max-width: 280px) {
   .hero__container--left p {
     font-size: 1.5rem;
   }
