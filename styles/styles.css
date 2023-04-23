@@ -1,13 +1,15 @@
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+.main {
+	background: #e3ccf2;
 	font-family: 'Kumbh Sans', sans-serif;
+}
+
+.hero__container--left h1,
+.hero__container--left h2 {
+	margin: 0;
 }
 
 /* navbar */
 .navbar {
-	background: #e3ccf2;
 	height: 80px;
 	display: flex;
 	justify-content: space-between;
